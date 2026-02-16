@@ -190,8 +190,29 @@
     }
     
     @media (max-width: 768px) {
+      .admin-container {
+        padding: 20px 10px;
+      }
+
+      .admin-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .table-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .appointments-table-container {
+        overflow-x: auto;
+      }
+
       table {
         font-size: 14px;
+        min-width: 700px;
       }
       
       th, td {
